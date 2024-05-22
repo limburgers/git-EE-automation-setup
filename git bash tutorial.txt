@@ -1,0 +1,40 @@
+`git add .` or `git add filename.py`
+
+`git commit -m "short message"` or `git commit` and then edit in np++
+
+`git push origin main` or `git push origin branchname`
+
+
+
+in bash use ...
+
+`cd` foldername to got to a folder
+
+`cd ..` to go up one folder level
+
+`ls` to list contents
+
+
+
+downloading git bash...
+
+instead of doing cd and other commands,
+
+go into properties and change opening directory to "repos" folder (create one in c:users folder)
+
+
+
+pulling from github into vscode... 
+do git clone [github url] --branch [branch name]
+after it finishes uploading into vscode, open the file that the clone is located in
+
+(dont need to clone when opening a file again, just open file because it saves automatically)
+  
+ When committing a project, it is essentially the same as clicking "save as' with more benefits.
+ Committing updates your local save file and makes it "ahead" of the github file (since it has more changes)
+ When you git push, this is what updates the github file to your local file (github is basically a backup saver)
+ - Opening a local file is basically just opening a saved file; you don't need to clone/pull each time.
+ 
+  
+
+- when using vscode, always use git bash inside of vscode, NOT the application
